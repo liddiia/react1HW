@@ -1,10 +1,9 @@
 {
-  "name": "react-homework-template",
+  "name": "react1hw",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://liddiia.github.io/react1HW/",
+  "homepage": "https://liddiia.github.io//",
 
-  //"homepage": "https://your_username.github.io/your_repo_name/"
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
