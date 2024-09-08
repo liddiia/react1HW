@@ -1,0 +1,25 @@
+.product {
+    border: 1px solid black;
+    padding: 15px;
+
+max-width: 400px;
+    border-radius: 15px;
+max-height: 400px;
+    box-shadow: 0px -1px 15px 6px rgba(122,106,111,1);
+    text-align: center;
+
+  } 
+.buttonAddToCard {
+  border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 9px -1px 43px 8px rgba(74,105,184,1);
+}
+.buttonDeleteProduct{
+  margin-left: 10px;
+  border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 9px -1px 43px 8px rgba(184,76,106,1);
+    background-color: blueviolet;
+}

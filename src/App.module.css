@@ -1,0 +1,14 @@
+.productList {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+object-fit: cover;
+aspect-ratio: 1 / 1 ;
+gap: 15px;
+margin: 5px;
+}
+.formsSection {
+    background-color: aqua;
+    padding-left: 20px;
+padding-bottom: 20px;
+}
+
