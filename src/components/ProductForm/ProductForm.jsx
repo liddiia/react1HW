@@ -30,7 +30,13 @@ const productData = {
 
     discount: hasDiscount ? Number.parseFloat(this.state.discount): null,
 };
- this.props.handleAppProduct(productData)
+ this.props.handleAppProduct(productData);
+ this.setState({
+    titel: '',
+    price: '',
+    hasDiscount: false,
+    discount:'',
+ })
 };
 handleInputChange = (event)=>{
     const value = event.target.type === 'checkbox' ? event.target.checked : event.target.value;
