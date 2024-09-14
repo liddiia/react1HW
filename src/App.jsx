@@ -21,7 +21,21 @@ export class App extends Component {
     isOpenModal: false,
     modalData: null,
   };
+componentDidMount(){
+  const stringifiedContacts = localStorage.getItem('products');
 
+  const parsedContacts = JSON.parse(stringifiedContacts)?? productsData;
+  this.setState({product:parsedContacts});
+;}
+componentDidUpdate(_, prevState){
+  //перевіряємо чи змінилися списки продуктів 
+  //і лише тоді перемальовуємо ДОМ
+  //синхронізуємо стейт з ЛокалСторідж
+if (prevState.products !== this.state.products)
+ { const stingifiedProducts = JSON.stringify(this.state.products);
+  
+  localStorage.setItem('products', stingifiedProducts);};
+}
   hendelIncrement = () => {
     this.setState({ counterValue: this.state.counterValue + 1 });
 
