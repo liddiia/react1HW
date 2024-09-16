@@ -1,0 +1,63 @@
+.container{
+max-width: 1200px;
+/* width: 98%; */
+margin: 0 auto;
+padding: 0 15px;
+background-color: rgb(224, 225, 206);
+}
+.postList{
+    list-style: none;
+    padding: 0;
+}
+.postListItem{
+padding: 20px;
+border: 2px solid black;
+border-radius: 5px;
+margin-bottom: 25px;
+/* width: 50%; */
+}
+.itemTitle{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.itemBody{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.errorBage {
+   padding: 25px;
+   border: 1px solid blue;
+   background-color: rgb(227, 49, 49); 
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+.listWrapper{
+    display: flex;
+    gap: 20px;
+
+}
+ .comentsList{
+    list-style: none;
+    padding: 0;
+    position: relative;
+ } 
+.comentsListItem{
+    position: sticky;
+    top: 15px;
+    padding: 20px;
+    border: 2px solid rgb(19, 97, 15);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.comentsItemTitle{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.comentsItemEmail{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.comentsitemBody{
+    margin-top: 0;
+    margin-bottom: 0;
+}
